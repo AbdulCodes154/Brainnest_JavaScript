@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shapes</title>
+</head>
+<body>
+  <script>
+    // Square
+    const sideLength = 9;
+    const diagonal = Math.sqrt(2 * sideLength * sideLength);
+    console.log("The diagonal of the square is " + diagonal);
+
+    // Triangle
+    const a = 5;
+    const b = 6;
+    const c = 7;
+    const s = (a + b + c) / 2;
+    const area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    console.log("The area of the triangle is " + area);
+
+    // Circle
+    const radius = 4;
+    const circumference = 2 * Math.PI * radius;
+    const surfaceArea = Math.PI * radius * radius;
+    console.log("The circumference of the circle is " + circumference);
+    console.log("The surface area of the circle is " + surfaceArea);
+  </script>
+</body>
+</html>
